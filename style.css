@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+  margin-left: 150px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+  width: 320px;
+}
+
+p {
+  color: var(--black, #121723);
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 0px 0px 12px 12px;
+  width: 320px;
+  align-items: center;
+  gap: 10px;
+}
+
+img {
+	width: 370px;
+}
+
+.container__image {
+  border-radius: 12px 12px 0px 0px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+body {
+  background: #F1F1F1;
+  margin: 0;
+}
+
+.sneaker {
+  width: 370px;
+}
+
+.name {
+  border-radius: 0px 0px 12px 12px;
+  background: var(--white, #FFF);
+  padding: 32px 24px;
+  gap: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 1161px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.header {
+  background-color: #FFF;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1161px;
+  padding: 30 0 16px;
+}
+
+.header__elements {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #121723;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 32px 0;
+}
+
+.footer__elements {
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer__logo {
+  width: 299.653px;
+  height: 22.32px;
+}
+
+.line {
+  width: 1160px;
+  margin: 0 auto;
+  border-color: rgba(230, 232, 236, 0.40);
+}
+
+.underline {
+  color: var(--text_gray, #A1A6B4);
+  font-family: Anonymous Pro;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 18 0 21px;
+  margin: 0;
+}
+
+.header__logo {
+  width: 212.34px;
+  height: 63.24px;
+}
+
+.subtitle {
+  margin-left: 0;
+  margin-right: 150px;
+}
+
+.sneakers {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+  width: 1161px;
+  margin: 0 auto;
+}
